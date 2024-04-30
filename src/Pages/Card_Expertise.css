@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+
+    font-family: "poppins", sans-serif;
+}
+
+.Card_Expertise_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 10%;
+    margin: auto;
+    width: 95%;
+}
+
+.Card_Expertise_My {
+    color: #670000;
+    font-size: 80px;
+    text-align: center;
+}
+
+.Card_main_selected_portfolios {
+    color: #670000;
+    font-size: 80px;
+    margin: auto;
+    display: flex;
+    width: 90%;
+}
+
+.Card_Main_Protfolio {
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 20%;
+    margin-top: 20%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.1s ease;
+    
+}
+
+.Card_Main_Protfolio:hover {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2); 
+    background: linear-gradient(to right,rgb(245, 245, 245),#bdb7b7);
+}
+
+.Card_Card_main {
+    padding: 36px 46px 32px 54px;
+
+}
+
+.Card_Expertise_title {
+    font-size: 30px;
+    color: #670000;
+    width: 60%;
+}
+
+.Card_Expertise_sentence {
+    font-size: 18px;
+    color: #000000;
+    width: 95%;
+}
+
+.Card_home_Expertise {
+    display: flex;
+    margin: auto;
+    width: 90%;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+@media only screen and (max-width: 750px) {
+
+    .Card_Expertise_My {
+        font-size: 28px;
+    }
+    .Card_home_Expertise{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .Card_Main_Protfolio {
+        display: flex;
+        width: 100%;
+        background-color: #fff;
+        margin-bottom: 10%;
+        margin-top: 10%;
+    
+    }
+}

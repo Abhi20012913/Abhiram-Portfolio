@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+
+    font-family: "poppins", sans-serif;
+}
+
+.Home_start {
+    background-color: #FFEFAE;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.Home_main {
+
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    margin-top: 12%;
+}
+
+.Home_hello {
+    font-size: 40px;
+    color: #670000;
+    text-align: start;
+}
+
+.line-after-o {
+    display: inline-block;
+    width: 83%;
+    border-bottom: 5px solid #670000;
+    margin-bottom: 10px;
+}
+
+.Home_name {
+    font-size: 120px;
+    color: #670000;
+    margin: 0px;
+    display: flex;
+}
+
+.Home_Frontend {
+    color: #670000;
+    text-align: end;
+}
+
+.Home_about_me {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background-color: #670000;
+}
+
+.Home_marg {
+    margin: auto;
+    width: 90%;
+
+}
+
+.Home_do_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Home_want_to {
+    color: white;
+    font-size: 40px;
+    width: 60%;
+}
+
+.Home_download {
+    background-color: #FFEFAE;
+    color: #670000;
+    width: 20%;
+    text-align: center;
+
+}
+
+.Home_Contact {
+    color: #FFEFAE;
+}
+
+.Home_Input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.input {
+
+    background-color: #670000;
+    color: #FFEFAE;
+    border: 1px solid #853023;
+    padding: 10px 25px;
+    width: 25%;
+
+}
+
+.input::placeholder {
+    color: #FFEFAE
+}
+
+.input1 {
+
+    background-color: #670000;
+    color: #FFEFAE;
+    border: 1px solid #853023;
+    padding: 10px 45px 8px;
+    width: 100%;
+
+}
+
+.Home_text {
+    display: flex;
+    width: 100%;
+    margin-top: 3%;
+
+
+}
+
+.input1::placeholder {
+    color: #FFEFAE
+}
+
+.Home_Send {
+    background-color: #FFEFAE;
+    color: #670000;
+    text-align: center;
+    font-size: 10px;
+    padding: 3px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.Home_icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.icons {
+    color: #FFEFAE;
+    display: flex;
+    width: 50px;
+    height: 40px;
+    font-size: 17px;
+    line-height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #771912;
+}
+
+.icons1 {
+    flex-direction: row;
+    justify-content: space-between;
+    display: flex;
+    width: 40%;
+    align-items: center;
+    text-align: center;
+}
+
+.Home_copyright {
+    color: white;
+    font-size: 12px;
+}
+
+.Card_selected_gallerys {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+    padding-top: 5%;
+    padding-bottom: 8%;
+}
+
+.my_protfolio {
+    font-size: 30px;
+    color: #670000;
+    padding-top: 5%;
+    margin: auto;
+    width: 90%;
+    display: flex;
+}
+
+
+@media only screen and (max-width: 750px) {
+
+    .Home_hello {
+        font-size: 21px;
+    }
+
+    .Home_name {
+        font-size: 51px;
+    }
+
+    .Home_Frontend {
+        font-size: 12px;
+    }
+
+    .Home_main {
+        display: flex;
+        margin: auto;
+        width: 90%;
+        text-align: end;
+        padding-top: 50px;
+    }
+
+    .line-after-o {
+        display: inline-block;
+        width: 81%;
+        border-bottom: 5px solid #670000;
+        margin-bottom: 5px;
+        margin-left: 0.5%;
+    }
+ 
+    .Home_do_row {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding-bottom: 50px;
+    }
+
+    .Home_want_to {
+        color: white;
+        font-size: 22px;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .Home_download {
+        background-color: #FFEFAE;
+        color: #670000;
+        width: 50%;
+        padding: 8px;
+        
+    }
+
+    .Home_Input {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .input {
+        padding: 15px 25px;
+        width: 85%;
+        margin: auto;
+        display: flex;
+        margin-bottom: 25px;
+    
+    }
+    .input1 {
+
+        background-color: #670000;
+        color: #FFEFAE;
+        border: 1px solid #853023;
+        padding: 10px 25px 8px;
+        width: 100%;
+    
+    }
+
+    .Home_Send {
+        background-color: #FFEFAE;
+        color: #670000;
+        text-align: center;
+        font-size: 16px;
+        padding: 3px;
+        margin-top: 8%;
+        margin-bottom: 14%;
+    }
+
+    .Home_icons {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    
+    .icons {
+        color: #FFEFAE;
+        display: flex;
+        width: 50px;
+        height: 40px;
+        font-size: 18px;
+        line-height: 50px;
+        justify-content: center;
+        align-items: center;
+        background-color: #771912;
+    }
+    
+    .icons1 {
+        flex-direction: row;
+        justify-content: space-between;
+        display: flex;
+        width: 60%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .Home_copyright {
+        color: white;
+        font-size: 15px;
+        margin-bottom:15% ;
+    }
+}
